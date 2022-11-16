@@ -1,13 +1,13 @@
 class Customer
   @@cls_customer = 0
 	  def initialize(id,name,surname)
-	  	@cust_id = id ,
-	  	@cust_name = name ,
+	  	@cust_id = id 
+	  	@cust_name = name 
 	  	@cust_sur = surname
 	         
 	  end
 	  def custo
-	   puts "your Customers #{@cust_id}"
+	   puts "your Customers id is  #{@cust_id} and name of the customer is #{@cust_name} and surname of #{@cust_name} is #{@cust_sur}"
 	  end
 
 end
