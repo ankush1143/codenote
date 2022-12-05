@@ -31,6 +31,7 @@ class Bank
    	@pin = gets.chomp.to_i
     validate
    end
+    
    def validate
     $detail.map do |key,value|
       if (key != @id and value[:pin] != @pin)
